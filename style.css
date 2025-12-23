@@ -1,8 +1,7 @@
-@font-face {
-  font-family: TestFont;
-  src: url("/assets/fonts/Minecraftia.ttf");
+* {
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Minecraftia', monospace;
-}
+  margin: 0;
+  background: #ffffff;
