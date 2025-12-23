@@ -81,4 +81,16 @@ body {
   margin-top: 20px;
 }
 
+}.site-title {
+  font-family: 'Minecraftia', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none; /* remove underline */
 }
+
+.site-title:hover {
+  color: #ffd700; /* optional: changes color on hover */
+  cursor: pointer;
+}
+
