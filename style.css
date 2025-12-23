@@ -34,21 +34,12 @@ body {
   line-height: 1;
   letter-spacing: 2px;
 
-.site-title:hover,
-.site-title:visited,
-.site-title:active{
-  color: #1f4fd8;
-  text-decoration: none;
-}
-
-
-  /* BLACK OUTLINE */
+  /* BLACK OUTLINE (THICK) */
   text-shadow:
-    text-shadow:
-  4px 4px 0 #000,
-  -4px 4px 0 #000,
-  4px -4px 0 #000,
-  -4px -4px 0 #000;
+    4px 4px 0 #000,
+    -4px 4px 0 #000,
+    4px -4px 0 #000,
+    -4px -4px 0 #000;
 }
 
 .site-title:hover,
@@ -104,7 +95,7 @@ body {
 .subscribe:hover,
 .subscribe:active{
   background:#ffffff;
-  color:#000000;                      /* black text on white */
+  color:#ff0000;                      /* black text on white */
 }
 
 .subscribe:hover { filter: brightness(0.95); }
