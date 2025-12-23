@@ -1,47 +1,11 @@
 @font-face {
-  font-family: "Minecraft";
-  src: url("assets/fonts/Minecraftia.ttf");
+  font-family: TestFont;
+  src: url("/assets/fonts/Minecraftia.ttf");
 }
 
 body {
-  margin: 0;
-  background-color: #2F6FED; /* mid blue */
+  font-family: TestFont !important;
+  background: #2F6FED;
   color: white;
-  text-align: center;
-  font-family: "Minecraft", monospace;
-}
-
-header {
-  padding: 40px 20px;
-}
-
-.buttons a {
-  background-color: #1E4FBF;
-  color: white;
-  padding: 12px 18px;
-  border-radius: 6px;
-  text-decoration: none;
-  margin: 6px;
-  display: inline-block;
-}
-
-.buttons a:hover {
-  background-color: #4A78C2;
-}
-
-.gallery {
-  padding: 30px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-}
-
-.card {
-  background-color: #1E4FBF;
-  border-radius: 8px;
-  padding: 25px;
-  font-size: 12px; /* Minecraft fonts are small */
+  font-size: 24px;
 }
