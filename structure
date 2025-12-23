@@ -1,0 +1,8 @@
+yourusername.github.io/
+│
+├── index.html
+├── style.css
+├── script.js        (optional)
+├── assets/
+│   ├── images/
+│   └── icons/
