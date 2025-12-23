@@ -46,16 +46,18 @@ body {
    ========================= */
 .site-title {
   font-size: 32px;
-  color: #3fa9f5; /* BLUE */
+  color: #1f4fd8; /* DARKER BLUE */
   text-decoration: none;
+
 }
 
 .site-title:hover,
 .site-title:visited,
 .site-title:active {
-  color: #3fa9f5; /* NEVER CHANGES */
+  color: #1f4fd8;
   text-decoration: none;
 }
+
 
 /* =========================
    NAV LINKS
