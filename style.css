@@ -4,8 +4,5 @@
 }
 
 body {
-  font-family: TestFont !important;
-  background: #2F6FED;
-  color: white;
-  font-size: 24px;
+  font-family: 'Minecraftia', monospace;
 }
