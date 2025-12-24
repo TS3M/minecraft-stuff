@@ -80,7 +80,7 @@ body {
 }
 
 .site-title img {
-  height: 64px;        /* THIS controls logo size */
+  height: 96px;        /* THIS controls logo size */
   width: auto;         /* keeps aspect ratio */
   image-rendering: pixelated; /* perfect for Minecraft style */
 }
