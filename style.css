@@ -23,15 +23,15 @@ body {
 /* --- Header / Top Bar --- */
 .nav a {
   color: #000;
-  text-decoration: none; 
-  font-size: 16px;  /* Increased from 12px */
+  text-decoration: none;
+  font-size: 1.2rem;  /* Adjusted for responsiveness */
   transition: color 0.3s ease;
   cursor: pointer;
 }
 
 .sep {
   color: #ffffff;
-  font-size: 16px;  /* Increased from 12px */
+  font-size: 1.2rem;  /* Adjusted for responsiveness */
   pointer-events: none;
 }
 
@@ -39,10 +39,28 @@ body {
 .footer {
   text-align: center;
   padding: 16px 10px;
-  font-size: 16px;  /* Increased from 12px */
+  font-size: 1.2rem;  /* Adjusted for responsiveness */
   opacity: 0.9;
   cursor: default;
 }
+
+/* --- Project Grid --- */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;  /* Increased gap for spacing */
+  padding: 20px;
+}
+
+/* Increase the project box font size */
+.project-label {
+  margin-top: 8px;
+  font-size: 18px;  /* Increased size */
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
 
 /* Left social icons */
 .left-icons {
