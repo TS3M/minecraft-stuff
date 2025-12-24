@@ -42,13 +42,13 @@ body {
 }
 
 .left-icons .social-icon {
-  width: 40px;  /* New size for the icons */
-  height: 40px; /* Maintain aspect ratio */
+  width: 50px;  /* Increase size of the icons */
+  height: 50px; /* Maintain aspect ratio */
   transition: transform 0.3s ease;  /* Smooth hover effect */
 }
 
 .left-icons .social-icon:hover {
-  transform: scale(1.1);  /* Slight zoom effect on hover */
+  transform: scale(1.1);  /* Slight zoom on hover */
 }
 
 /* If you still want to use SVGs, you can keep this part or remove it */
