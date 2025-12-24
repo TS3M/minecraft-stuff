@@ -75,14 +75,15 @@ body {
 
 .site-title {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .site-title img {
-  height: 80px;        /* THIS controls logo size */
-  width: auto;         /* keeps aspect ratio */
-  image-rendering: pixelated; /* perfect for Minecraft style */
+  height: 160px;  /* You can adjust this as needed */
+  width: auto;    /* Maintain aspect ratio */
+  image-rendering: pixelated;  /* Keeps the Minecraft pixel style sharp */
+  max-width: 100%;
 }
 
 
