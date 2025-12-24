@@ -84,11 +84,12 @@ body {
   color: #1f77b4; /* Blue */
   text-decoration: none;
   font-weight: bold;
-  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6); /* Thicker shadow to match your image */
-  border: none; /* No black box border around title */
+  text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8); /* Thicker shadow to match your image */
+  border: none; /* Remove the black box border completely */
   padding: 6px 16px; /* Padding for better alignment */
   line-height: 1; /* Prevent line breaks inside title */
   display: inline-block; /* Make sure it's not taking full width */
+  -webkit-text-stroke: 4px #000; /* 4px black outline around the text */
 }
 
 /* --- Nav links --- */
@@ -132,6 +133,7 @@ body {
   font-size: 12px;
   white-space: nowrap;
   transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-text-stroke: 4px #000; /* 4px black outline around the button text */
 }
 
 .subscribe:hover {
