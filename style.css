@@ -20,6 +20,12 @@ body {
   color: #000;
 }
 
+/* --- Load Minecraft Font --- */
+@font-face {
+  font-family: "Minecraftia";
+  src: url("https://fonts.cdnfonts.com/s/23552/Minecraftia-Regular.ttf");
+}
+
 /* --- Header / Top Bar --- */
 .top-bar {
   background: #27cfcf;
@@ -80,15 +86,15 @@ body {
 .site-title {
   font-family: "Minecraftia", system-ui, Arial, sans-serif; /* Minecraft-like font */
   letter-spacing: 2px;
-  font-size: 48px; /* Exact size to match image */
+  font-size: 60px; /* Adjusted for sharp, pixelated look */
   color: #0000ff; /* Bright blue */
   text-decoration: none;
   font-weight: bold;
   text-shadow: none; /* No shadow as per your request */
-  -webkit-text-stroke: 2px #000; /* Black outline */
+  -webkit-text-stroke: 3px #000; /* 3px black outline for sharpness */
   padding: 6px 16px; /* Padding for better alignment */
   line-height: 1; /* Prevent line breaks inside title */
-  display: inline-block; /* Make sure it's not taking full width */
+  display: inline-block; /* Ensure the title has the correct width */
 }
 
 /* --- Nav links --- */
@@ -127,8 +133,8 @@ body {
   color: #ffffff; /* White text */
   text-decoration: none;
   padding: 8px 16px;
-  border: 3px solid #000; /* Black border around the button */
-  font-size: 14px;
+  border: 3px solid #000; /* 3px black border around the button */
+  font-size: 16px; /* Slightly larger font for better readability */
   white-space: nowrap;
   transition: background-color 0.3s ease, color 0.3s ease;
   -webkit-text-stroke: 2px #000; /* 2px black outline for the text */
