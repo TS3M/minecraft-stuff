@@ -153,7 +153,7 @@ body {
 .subscribe:hover,
 .subscribe:active{
   background:#ffffff;
-  color:#000000;                      /* black text on white */
+  color:#ff0000;                      /* black text on white */
 }
 
 /* --- Footer --- */
