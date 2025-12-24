@@ -181,8 +181,8 @@ body {
     inset 0 0 0 2px #6ff5f5,    /* inner highlight */
     0 4px 0 #0f7f7f;            /* bottom depth (Minecraft feel) */
 }
-/* HEADER */
-.top-bar {
+/* Only style the actual header bar (won't affect other .top-bar uses) */
+.header-bar {
   background: #27cfcf;
   border: 3px solid #1aa5a5;
   box-shadow:
@@ -190,37 +190,32 @@ body {
     0 4px 0 #0f7f7f;
 
   position: relative;
-  z-index: 1000; /* 🔥 makes it clickable */
+  z-index: 1000;
 }
 
-/* ICON CONTAINER */
-.left-icons {
+/* Make icons visible + clickable */
+.header-bar .left-icons {
   display: flex;
   gap: 14px;
 }
 
-/* ICON LINKS */
-.icon {
-  color: #ffffff; /* 🔥 FIXES invisible Twitch logo */
+.header-bar .icon {
+  color: #ffffff;
   text-decoration: none;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   cursor: pointer;
   pointer-events: auto;
 }
 
-/* SVG SIZE */
-.icon svg {
+.header-bar .icon svg {
   width: 20px;
   height: 20px;
   fill: currentColor;
   display: block;
 }
 
-/* HOVER */
-.icon:hover {
-  color: #a970ff; /* Twitch purple */
+.header-bar .icon:hover {
+  color: #a970ff;
 }
