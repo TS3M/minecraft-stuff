@@ -15,7 +15,7 @@ html, body {
 }
 
 body {
-  font-family: "Minecraftia", system-ui, Arial, sans-serif;
+  font-family: "Minecrafter", system-ui, Arial, sans-serif;
   background: #ffffff;
   color: #000;
 }
@@ -77,10 +77,12 @@ body {
   flex: 1;
 }
 
-/* Site title image */
-.site-title img {
-  height: 60px;
-  width: auto;
+/* TS3M title text */
+.ts3m-text {
+  font-size: 36px;
+  font-weight: bold;
+  color: blue;
+  text-shadow: 3px 3px 4px black;
 }
 
 .nav {
@@ -110,19 +112,30 @@ body {
   pointer-events: none;
 }
 
-/* --- Subscribe button --- */
+/* --- Subscribe button text --- */
 .subscribe {
   display: inline-block;
-  height: 40px; /* Make sure the button is properly sized */
+  height: 40px; /* Ensure the button is properly sized */
   width: auto;
   text-decoration: none;
   padding: 8px 16px;
 }
 
-.subscribe img {
-  height: 40px; /* Set height of the image */
-  width: auto; /* Maintain aspect ratio */
-  cursor: pointer;
+.subscribe-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px 4px black;
+  padding: 10px;
+}
+
+.subscribe:hover .subscribe-text {
+  color: red;
+}
+
+.subscribe:hover {
+  background-color: white;
+  border: 3px solid red;
 }
 
 /* --- Footer --- */
