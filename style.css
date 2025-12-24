@@ -173,3 +173,11 @@ body {
     row-gap: 8px;
   }
 }
+/* Cyan header border */
+.top-bar {
+  background: #27cfcf;          /* your cyan */
+  border: 3px solid #1aa5a5;    /* darker cyan border */
+  box-shadow:
+    inset 0 0 0 2px #6ff5f5,    /* inner highlight */
+    0 4px 0 #0f7f7f;            /* bottom depth (Minecraft feel) */
+}
