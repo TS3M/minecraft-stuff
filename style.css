@@ -202,3 +202,44 @@ body {
     gap: 26px;
   }
 }
+/* ===== FIX PATCH (put at the VERY BOTTOM of style.css) ===== */
+
+/* kill any flex layout that can shove everything around */
+body{
+  display: block !important;
+}
+
+/* make header full width and always at top */
+header.top-bar{
+  position: sticky !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  margin: 0 !important;
+  z-index: 9999 !important;
+}
+
+/* keep the main content centered */
+main.content{
+  width: min(1100px, 92vw) !important;
+  margin: 28px auto 40px !important;
+}
+
+/* force the grid back to 3 columns centered */
+main.content .projects-grid{
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(220px, 1fr)) !important;
+  gap: 46px 60px !important;
+}
+
+/* keep cards sane */
+.project-box{
+  display: block !important;
+}
+.project-box img{
+  width: 100% !important;
+  height: 170px !important;
+  object-fit: cover !important;
+  display: block !important;
+}
