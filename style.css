@@ -78,14 +78,14 @@ body {
 }
 
 .site-title {
-  font-family: "Minecraftia", system-ui, Arial, sans-serif; /* Correct Minecraft-like font */
+  font-family: "Minecraftia", system-ui, Arial, sans-serif; /* Minecraft-like font */
   letter-spacing: 2px;
-  font-size: 50px; /* Exact size as in your image */
+  font-size: 48px; /* Exact size to match image */
   color: #1f77b4; /* Matching the exact blue color */
   text-decoration: none;
   font-weight: bold;
-  text-shadow: none; /* No shadow, as per the image */
-  -webkit-text-stroke: 2px #000; /* Slight black outline around the text */
+  text-shadow: none; /* No shadow as per your request */
+  -webkit-text-stroke: 2px #000; /* Thin 2px black outline */
   padding: 6px 16px; /* Padding for better alignment */
   line-height: 1; /* Prevent line breaks inside title */
   display: inline-block; /* Make sure it's not taking full width */
