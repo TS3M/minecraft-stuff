@@ -80,13 +80,15 @@ body {
 .site-title {
   font-family: "Minecrafter", "Minecraftia", system-ui, Arial, sans-serif;
   letter-spacing: 1px;
-  font-size: 48px; /* Larger for the big TS3M title */
+  font-size: 48px; /* Bigger for the big TS3M title */
   color: #1f77b4; /* Blue */
   text-decoration: none;
   font-weight: bold;
-  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); /* Thick black outline effect */
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6); /* Thicker shadow to match your image */
   border: 3px solid #000; /* Black outline */
-  padding: 6px 12px; /* Padding for the outline */
+  padding: 6px 16px; /* Padding for the outline */
+  line-height: 1; /* Prevent line breaks inside title */
+  display: inline-block; /* Make sure it's not taking full width */
 }
 
 /* --- Nav links --- */
